@@ -1,0 +1,17 @@
+{
+    "name": "Python-C++ Dev Container",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.debugpy",
+                "ms-python.black-formatter",
+                "ms-python.vscode-pylance",
+                "ms-python.vscode-python-envs"
+            ]
+        }
+    }
+}
