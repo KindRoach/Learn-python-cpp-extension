@@ -1,0 +1,6 @@
+# pip build directories
+**/*.egg-info
+**/build
+
+# python venv
+.venv
