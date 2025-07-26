@@ -8,6 +8,7 @@ RUN --mount=type=cache,target=/var/cache/apt \
     # python libs
     python3-full \
     python3-dev \
+    pybind11-dev \
     # dev tools
     git \
     # build tools
