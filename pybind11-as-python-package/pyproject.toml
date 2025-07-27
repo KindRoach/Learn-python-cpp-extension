@@ -1,0 +1,8 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11", "cmake"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "my_package"
+version = "0.0.1"
+description = "My python package with c++ extension."
